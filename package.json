@@ -1,3 +1,4 @@
+
 {
   "name": "sdsp-finance-suite",
   "private": true,
@@ -15,9 +16,11 @@
     "preview": "vite preview",
     "scrape": "node scripts/scrape.js"
   },
+  },
   "dependencies": {
     "@aws-sdk/client-dataexchange": "^3.525.0",
     "@huggingface/inference": "^2.6.4",
+    "circomlib": "^2.0.5",
     "@supabase/supabase-js": "^2.39.0",
     "@tensorflow/tfjs": "^4.17.0",
     "axios": "^1.6.2",
@@ -29,7 +32,8 @@
     "papaparse": "^5.4.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "rss-parser": "^3.13.0"
+    "rss-parser": "^3.13.0",
+    "snarkjs": "^0.7.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
