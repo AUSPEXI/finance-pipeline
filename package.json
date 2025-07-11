@@ -16,7 +16,6 @@
     "preview": "vite preview",
     "scrape": "node scripts/scrape.js"
   },
-  },
   "dependencies": {
     "@aws-sdk/client-dataexchange": "^3.525.0",
     "@huggingface/inference": "^2.6.4",
