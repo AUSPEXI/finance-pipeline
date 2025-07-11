@@ -1,0 +1,285 @@
+# SDSP Finance Suite - Proprietary Information Protection
+# This file protects AUSPEXI's intellectual property and competitive advantages
+
+# ========================================
+# CRITICAL: Environment & API Credentials
+# ========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.example.filled
+*.env
+.env.*
+
+# Supabase credentials
+supabase/.env
+supabase/config.toml
+.supabase/
+
+# API Keys and secrets
+api-keys.json
+secrets.json
+credentials.json
+config/secrets/
+config/api-keys/
+
+# ========================================
+# PROPRIETARY: Database Optimizations
+# ========================================
+# Our 70% I/O reduction techniques
+.bolt/supabase_discarded_migrations/
+supabase/migrations/*_discarded.sql
+supabase/migrations/optimization_*.sql
+supabase/migrations/io_optimized_*.sql
+
+# Proprietary database functions
+supabase/functions/proprietary/
+src/services/database/ioOptimizedSupabaseClient.ts
+src/services/database/proprietaryOptimizations.ts
+
+# Performance optimization secrets
+docs/DATABASE_OPTIMIZATION.md
+docs/IO_OPTIMIZATION_TECHNIQUES.md
+docs/PERFORMANCE_SECRETS.md
+
+# ========================================
+# PROPRIETARY: Marketplace Integration
+# ========================================
+# Our Databricks marketplace strategy
+docs/DATABRICKS_*.md
+netlify/functions/enhanced-marketplace-upload.ts
+netlify/functions/databricks-*.ts
+src/services/marketplace/proprietaryIntegrations.ts
+
+# Marketplace pricing strategies
+docs/PRICING_STRATEGY.md
+docs/MARKETPLACE_COMPETITIVE_ANALYSIS.md
+src/config/marketplacePricing.ts
+
+# ========================================
+# PROPRIETARY: AI Model Implementations
+# ========================================
+# Our 20 AI model architecture
+src/services/ai/proprietaryModels/
+src/services/ai/enhancedPipeline/
+src/services/ai/zkSnarks/
+src/algorithms/
+
+# Model training data and weights
+models/
+training-data/
+model-weights/
+*.pkl
+*.h5
+*.pt
+*.onnx
+
+# ========================================
+# PROPRIETARY: zk-SNARKs Implementation
+# ========================================
+# Our zero-knowledge proof system
+src/services/zkProofService.ts
+src/components/ZKProof/
+circuits/
+proofs/
+keys/
+*.zkey
+*.wasm
+*.r1cs
+
+# Cryptographic implementations
+src/crypto/
+src/security/proprietary/
+
+# ========================================
+# PROPRIETARY: Finance Suite Architecture
+# ========================================
+# Our 8-suite finance architecture
+docs/FINANCE_SUITE_ARCHITECTURE.md
+docs/SUITE_IMPLEMENTATION_SECRETS.md
+src/suites/proprietary/
+
+# Business logic and algorithms
+src/algorithms/finance/
+src/calculations/proprietary/
+src/risk-models/
+
+# ========================================
+# PROPRIETARY: Data Collection Pipeline
+# ========================================
+# Our 1M records/day pipeline secrets
+netlify/functions/optimized-cron-collect.ts
+netlify/functions/io-optimized-*.ts
+src/services/dataCollection/proprietaryPipeline.ts
+
+# Scraping strategies and sources
+src/scrapers/proprietary/
+data-sources.json
+scraping-strategies.md
+
+# ========================================
+# PROPRIETARY: Documentation & Strategy
+# ========================================
+# Business strategy documents
+docs/BUSINESS_STRATEGY.md
+docs/COMPETITIVE_ANALYSIS.md
+docs/REVENUE_PROJECTIONS.md
+docs/MARKET_POSITIONING.md
+
+# Technical implementation secrets
+docs/IMPLEMENTATION_SECRETS.md
+docs/ARCHITECTURE_DECISIONS.md
+docs/PERFORMANCE_OPTIMIZATIONS.md
+
+# Client information
+docs/CLIENT_*.md
+client-data/
+customer-analysis/
+
+# ========================================
+# PROPRIETARY: Configuration & Deployment
+# ========================================
+# Deployment secrets
+deployment/
+infrastructure/
+terraform/
+ansible/
+docker-compose.prod.yml
+
+# Monitoring and analytics
+monitoring/
+analytics/
+logs/proprietary/
+
+# ========================================
+# STANDARD: Dependencies & Build
+# ========================================
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build outputs
+dist/
+dist-ssr/
+*.local
+.vite/
+
+# ========================================
+# STANDARD: IDE & OS Files
+# ========================================
+# IDE files
+.vscode/settings.json
+.vscode/launch.json
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ========================================
+# STANDARD: Logs & Temporary Files
+# ========================================
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# ========================================
+# PROPRIETARY: Backup & Archive Files
+# ========================================
+# Database backups
+backups/
+*.backup
+*.dump
+*.sql.gz
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+.temp/
+
+# ========================================
+# PROPRIETARY: Testing & Development
+# ========================================
+# Test data with real information
+test-data/real/
+test-data/production/
+test-data/client/
+
+# Development databases
+*.db
+*.sqlite
+*.sqlite3
+
+# ========================================
+# LEGAL: Compliance & Contracts
+# ========================================
+# Legal documents
+contracts/
+legal/
+compliance/proprietary/
+audit-reports/
+security-assessments/
+
+# ========================================
+# FINANCIAL: Revenue & Pricing
+# ========================================
+# Financial information
+revenue-data/
+pricing-models/
+financial-projections/
+cost-analysis/
+
+# ========================================
+# NOTES FOR PROTECTION
+# ========================================
+# This .gitignore protects:
+# 1. 70% I/O reduction database optimization techniques
+# 2. Proprietary 20 AI model architecture
+# 3. zk-SNARKs implementation for FCA/SEC compliance
+# 4. 8-suite finance architecture and business logic
+# 5. 1M records/day data pipeline optimizations
+# 6. Databricks marketplace integration strategies
+# 7. Competitive pricing and revenue models
+# 8. Client data and business intelligence
+# 9. Security implementations and cryptographic keys
+# 10. All proprietary algorithms and trade secrets
+
+# REMEMBER: Even with .gitignore, be careful about:
+# - Commit history (use git filter-branch if needed)
+# - Public repositories vs private repositories
+# - Team member access controls
+# - Regular security audits of exposed information
