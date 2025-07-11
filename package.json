@@ -3,7 +3,7 @@
   "private": true,
   "version": "2.0.0",
   "type": "module",
-  "description": "SDSP Finance Suite App - Secure Data Sharing Platform with zk-SNARKs and FCA/SEC compliance",
+  "description": "SDSP Finance Suite App Secure Data Sharing Platform with zk-SNARKs and FCA/SEC compliance",
   },
   "scripts": {
     "dev": "vite",
