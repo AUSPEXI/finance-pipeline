@@ -3,20 +3,21 @@
   "private": true,
   "version": "2.0.0",
   "type": "module",
-  "description": "SDSP Finance Suite - App Secure Data Sharing Platform with zk-SNARKs FCA/SEC compliance",
+  "description": "SDSP Finance Suite App - Secure Data Sharing Platform with zk-SNARKs and FCA/SEC compliance",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AUSPEXI/finance-pipeline.git"
   },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint. ",
+    "lint": "eslint .",
     "preview": "vite preview",
-    "scrape": "node scripts/scrape.js",
-    "compile-circuits": "node scripts/compile-circuit.js"
+    "scrape": "node scripts/scrape.js"
   },
   "dependencies": {
     "@aws-sdk/client-dataexchange": "^3.525.0",
     "@huggingface/inference": "^2.6.4",
-    "circomlib": "^2.0.5",
     "@supabase/supabase-js": "^2.39.0",
     "@tensorflow/tfjs": "^4.17.0",
     "axios": "^1.6.2",
@@ -28,8 +29,7 @@
     "papaparse": "^5.4.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "rss-parser": "^3.13.0",
-    "snarkjs": "^0.7.5"
+    "rss-parser": "^3.13.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
